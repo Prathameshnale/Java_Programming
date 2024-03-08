@@ -41,9 +41,9 @@ public class String_Methods {
 		
 		
 
-		String str8="prathameh nale live in pune";
+		String str8="Hello, thanks for attempting this problem! Hope it will help you to learn java! Good luck and have a nice day!";
 		
-		String[] arr=str1.split("a");
+		String[] arr=str8.split(", |\\?|'| ");
 		for(String s:arr) {
 			System.out.println(s);
 		}
