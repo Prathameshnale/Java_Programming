@@ -39,7 +39,7 @@
       enterprise - It is a large software system designed for corporate environment such as business or government.
                    e.g any particular companies software that is used among them,etc.
             
-            
+                  
             
  2. History of Java?
  
@@ -47,7 +47,7 @@
     In 1995 - Java 1.0 released in a public.
     In 1997 - Java 1.1 released with inner classes and JIT compiler (Just In Time).
     In 2004 - Java 5 (java 1.5) released with generic,annotations and enumerations.
-    In 2011 - Oracle corporation acquires the sun Mocrosystem and become the official maintainer of java.
+    In 2011 - Oracle corporation acquires the sun Microsystem and become the official maintainer of java.
     In 2014 - Java 1.8 released with Lamda expression,stream API.etc
     In 2017 - Java 9 released
     In 2018 - Java 10 and 11 released.
@@ -57,7 +57,13 @@
     
  3. Features of Java?
  
- ->
+ ->1.Platform Independent
+   2.Object Oriented
+   3.Garbage Collector - Java automatically manages memory through garbage collector, freeing developers Memory management.
+   4.Multi-threading - Java allows multi-threading, allows developers to make concurrent application.
+   5.Security - java provides the security feature like class loader and security manager.
+   
+   
     
     
     
