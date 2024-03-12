@@ -1,0 +1,67 @@
+
+
+1. What is java?
+
+-> Java is a High level, object oriented , compiler independent programming language developed by James Gosling and his team in 
+   Sum MicroSystems but later it was acquired by oracle corporation. It was released  in 1995 and widely used for development of
+   applications like mobile applications,web applications,desktop applications and enterprise applications.
+   
+   
+   a. what is High level language?
+   
+   -> High level language is a programming language which is used to write the programs,software,application.it could be 
+      understandable by the humans and computers. High level language is more understandable by the humans because it is
+      written by using the symbols and letters to represents the logic and instructions. Basically the language which is
+      more understandable by the humans are called high level language.
+      e.g Java,C++,etc.
+      
+   
+   b. what is object oriented language?
+   
+   -> Object oriented language is a software design or program methodology which used to manipulate the date around the 
+      software design or program methodology in the form of objects/entity rather than the functions.
+      e.g Java,C++,etc.
+      
+   c. what is compiler independent language?
+   
+   -> compiled ByteCode that can be run on any device/platform with the help of JVM.
+   	  it means we can write a program in one platform e.g (windows) and after compilation that ByteCode we can run on
+   	  any other platforms like (Linux,macOS).
+   	  
+   d. what is mobile,web,desktop,enterprise applications?
+   
+   -> mobile - software programs are run on only android device called as mobile applications.
+               e.g NetFlix,Twitter,etc.
+      desktop - software programs are runs on only computer devices locally are called desktop applications.
+               e.g Microsoft office, windows file explorer.
+      web - software programs that runs on your browser is called as web applications.
+            e.g facebook, instagram, email,etc.
+      enterprise - It is a large software system designed for corporate environment such as business or government.
+                   e.g any particular companies software that is used among them,etc.
+            
+            
+            
+ 2. History of Java?
+ 
+ -> In 1991- James Gosling and his team started work on project "Oak" and later it was renamed as "Java".
+    In 1995 - Java 1.0 released in a public.
+    In 1997 - Java 1.1 released with inner classes and JIT compiler (Just In Time).
+    In 2004 - Java 5 (java 1.5) released with generic,annotations and enumerations.
+    In 2011 - Oracle corporation acquires the sun Mocrosystem and become the official maintainer of java.
+    In 2014 - Java 1.8 released with Lamda expression,stream API.etc
+    In 2017 - Java 9 released
+    In 2018 - Java 10 and 11 released.
+    
+    
+    
+    
+ 3. Features of Java?
+ 
+ ->
+    
+    
+    
+    
+            
+            
+            
