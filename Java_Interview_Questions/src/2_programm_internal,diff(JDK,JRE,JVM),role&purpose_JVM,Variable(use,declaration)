@@ -1,0 +1,27 @@
+1. What is Program internal?
+
+-> The internal structure of the program is organized by the classes and packages. Packages having the group of related classes.
+   and each java file content one public class having the same name as file name and inside that class one public main method is
+   present which is called as entry point method/function of program.
+   
+   
+2. Difference Between JDK,JRE and JVM?
+
+-> JDK - Java Development Kit
+   JRE - Java Runtime Environment
+   JVM - Java Virtual Machine
+   
+   JDK - java development kit is software development kit that includes all the necessary tools required for the development 
+         and run of applications. (JDK - JDK=JRE+JVM).
+   JRE - Java Runtime Environment includes JVM and all the necessary libraries and the files(source code) to run the application
+         (JRE= JVM + all libraries + source code).
+   JVM - Java Virtual Machine is used to convert the bytecode into the executable code in respective platform like 
+         (windows,Linux,MacOS). so JVM is the reason that java makes compiler independent.
+         
+         
+3. What is the role and purpose of JVM?
+
+-> 
+   
+
+   
