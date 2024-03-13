@@ -57,15 +57,25 @@
     
  3. Features of Java?
  
- ->1.Platform Independent
-   2.Object Oriented
+ ->1.Platform Independent.
+   2.Object Oriented.
    3.Garbage Collector - Java automatically manages memory through garbage collector, freeing developers Memory management.
    4.Multi-threading - Java allows multi-threading, allows developers to make concurrent application.
    5.Security - java provides the security feature like class loader and security manager.
    
    
-    
-    
+   
+ 4. Comparison C++ and Java
+ 
+ ->1.Memory Management - In c++ requires manual memory management and In Java automatically memory management done through garbage collector.
+   2.Platform dependency - C++ is compiler/platform dependent and Java is a compiler/platform Independent.
+   3.Pointer             - C++ supports pointer and Java does not supports pointers.
+   4.Virtual functions  - in c++ we need write explicitly virtual keyword for virtual functions and in Java by default all Functions are 
+   							virtual functions except final,static and private functions.
+   							
+   							
+   
+  
     
     
             
