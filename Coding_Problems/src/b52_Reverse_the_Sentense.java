@@ -6,7 +6,7 @@ public class b52_Reverse_the_Sentense {
 		// Write a program to REVERSE the SENTENCE?
 		
 		//e.g 
-		//enter	the	sentence          :	rama	and	laxmana	
+		//enter	the	sentence          :	rama and	laxmana	
 		//The	reserve	sentence is   :	laxmana	and	rama
 		
 		Scanner sc = new Scanner(System.in);
