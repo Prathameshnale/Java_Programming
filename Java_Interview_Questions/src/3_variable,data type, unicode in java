@@ -1,0 +1,26 @@
+ 1. What are variable in java? How they are declared and used?
+ 
+ -> Variables are the containers used to store the data. they are declared with the data type and can be initialize with
+    the data/value with matches the data type.
+    
+    Rules to declares name of variables
+    -It should not be reserved keyword
+    -It should not start with digit
+    -No special character is allowed except _
+    -Alpha numeric is allowed.
+    -No space is allowed
+    -variable name case-sensetive (num and Num both are different)
+    -No limit of length for the name.
+    
+    
+    
+    
+  2.Discuss the various data types available in java with examples?
+  
+  ->Data types are refer to the size and values that can be stored inside the variables.
+  	
+  	Two types of Data types 
+  	1.Primitive data type and
+  	2.Non-primitive(reference type)
+  	
+  	1.Primitive data type 

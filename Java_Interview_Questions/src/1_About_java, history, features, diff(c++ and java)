@@ -72,6 +72,8 @@
    3.Pointer             - C++ supports pointer and Java does not supports pointers.
    4.Virtual functions  - in c++ we need write explicitly virtual keyword for virtual functions and in Java by default all Functions are 
    							virtual functions except final,static and private functions.
+   5.Multi-threading  - C++ does not support but Java Supports multi-threading.
+   6.Operator Overloading - C++ supports Operator overloading java does not support operator overloading.
    							
    							
    
