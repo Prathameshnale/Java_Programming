@@ -12,16 +12,59 @@
    JVM - Java Virtual Machine
    
    JDK - java development kit is software development kit that includes all the necessary tools required for the development 
-         and run of applications. (JDK - JDK=JRE+JVM).
+         and run of applications. (JDK=JRE+JVM).
    JRE - Java Runtime Environment includes JVM and all the necessary libraries and the files(source code) to run the application
          (JRE= JVM + all libraries + source code).
-   JVM - Java Virtual Machine is used to convert the bytecode into the executable code in respective platform like 
-         (windows,Linux,MacOS). so JVM is the reason that java makes compiler independent.
+   JVM - Java Virtual Machine is used to convert the byte code into the executable code in respective platform like 
+         (windows,Linux,MacOS). so JVM is the reason that java makes compiler/platform independent.
+         OR
+         java application are called as WORA(Write Once and Run Anywhere) application. because of JVM.
          
          
 3. What is the role and purpose of JVM?
 
--> 
+-> we have source code file with extension .java then
+   during compilation compiler compile that .java file and convert it into .class file (we called it as byte code)
+   compiler will give the class name to the .class file having main method present so we generally give the file name and class same.
+   after compilation .class file will go to the JVM (Java Virtual Machine).
+   JVM having 3 parts->
+   		1.class loader
+   		2.JVM memory
+   		3.Execution engine
+   		4.JIT compiler
+   		
+   		
+   		1.class loader 
+   			a.loading - Loading the .class file
+   			b.Linking - Perform verification and preparation and resolution
+   			c.Initialization - Initialize all static variables , define static block if any
+   			
+   		2.JVM memory 
+   			a.Method area
+   			b.Heap area
+   			c.Stacks area
+   			d.PC Registers
+   			e.native method stacks
+        3.Execution engine
+            Execution engine converts the byte code line by line into the respective platform executable code.
+            
+        4.JIT Compiler
+        	JIT compiler stores the repeatedly calling code. and give to the execution engine whenever needed. it will save execution time.
+   
+   
+4.Why class name and file name should be same in java?
+
+-> when compiler compile the source code and create .class file having byte code ,but the name of the class file is given by the
+   compiler ,compiler give the class name to the .class file having the main method is present. so to avoid confusion between 
+   file name and .class file name we give the file name and class name same having main method is present.  
+
+   
+   
+4. Memory Management in Java?
+
+-> IN java Memory is divided into two parts Heap memory and stack memory.
+   Heap Memory - 
+   
    
 
    
