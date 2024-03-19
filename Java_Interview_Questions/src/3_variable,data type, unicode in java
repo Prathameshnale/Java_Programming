@@ -15,6 +15,9 @@
     
     
     
+    
+    
+    
   2.Discuss the various data types available in java with examples?
   
   ->Data types are refer to the size and values that can be stored inside the variables.
@@ -23,4 +26,67 @@
   	1.Primitive data type and
   	2.Non-primitive(reference type)
   	
-  	1.Primitive data type 
+  							1.Primitive data type            		 2.Non primitive data types
+  	
+  											size(bytes)
+  		 						   int           4 	->                    Integer        //first letter of all non primitive data type
+                                   float         4	->                    Float          //must be in capital letter and 
+                                   char         1/2 ->                    Character      // in complete/full word
+                                   double        8 	->                    Double
+                                   short         2	->                    Short
+                                   byte          1 	->                    Byte
+                                   boolean       1 	->                    Boolean
+                                   long			 8						  Object
+                                   										  Arrays
+                                   										  String
+                                   										  classes
+                                   										
+                                   										
+    Primitive -> there are two concepts in primitive 
+    
+    1.Narrowing -> when values of big size of data type converted into small size of data type (it may data loss) then it is called narrowing
+                   It is done explicitly by the programmer.
+                   
+      e.g  int i=0;
+           float f=5.5;
+           
+           int a = (int) f;   (data loss = 0.5) explicitly by programmer
+                   
+    2.Widening ->when values of small size of data type converted into big size of data type (no data loss) then it is called as widening
+    			   It is done by the compiler automatically.
+    	
+      e.g  float f =0;
+           int i =8876;
+           
+           float f = i;   (no data loss) implicitly by compiler		   
+    			   
+    			   
+    			   
+    Non primitive -> there are two concepts in non-primitive
+    
+    1.Boxing -> when primitive type of data convert into non primitive/wrapper then it is called as boxing.
+    
+    e.g int num=50;
+        Integer i = new Integer(num);  (primitive to non-primitive)
+        
+        
+        
+    2.Unboxing -> when non-primitive type of data converted into primitive then it is called as unboxing.
+    
+    e.g Integer num = new Integer(500);
+    	int i = Integer.parseInt(num);  (non-primitive to primitive);
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+ 3. How does Java handle Unicode characters? Why is it important?
+ 
+ ->Unicode character support All different writing systems. Unicode is important because it represents the all characters from
+   different languages. so it will help to make internationalized application which will work across the world.
+    	
+    	
+               
