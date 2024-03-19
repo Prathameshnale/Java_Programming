@@ -1,0 +1,58 @@
+1. Explain different types of operators in Java with examples?
+
+-> 1.Arithmetic Operators - addition + ,Subtraction - ,multiplication * ,division / ,modulus %
+   2.Logical Operators -    logical AND && , logical OR || , logical NOT !
+   3.Bitwise Operators -    bitwise AND &, bitwise OR |, bitwise NOT ~, bitwise XOR ^
+   4.Comparison Operators - equal to == , not equal to != , less than < ,greater than >, less than equal to <=, greater than equal to >=
+   5.Assignment Operators - assign = , add and assign +=, sub and assign -=, multiply and assign *=, division and assign /=, 
+   							modulus and assign %=
+   							
+ 
+ 
+2.  List some important keywords in Java and their significance?
+
+-> class						- used to declare the class
+   public,private,protected 	- this are the access modifiers used to control the access to class, fields, methods 
+   static 						- static is used to create class level variables and methods.
+   void							- used to indicate that method does not return anything.
+   final 						- used to declare constant variables,methods,class (unchangeable)
+   new 							- used to create instance of classes(object)
+   this                         - used to indicate current object in class
+   super						- used to refer super class or parent class of current class
+   if,else						- used for conditional statements
+   while,for                    - used for looping
+   try,catch,finally            - used for exception handling.
+   
+   
+   
+   
+   
+   
+3. What is the purpose of the if-else statement in Java? Provide an example of its usage?
+
+-> If-else statements are used to execute the particular lines of code based on the condition.
+   It is used for decision making in java-program.
+   
+   e.g if we want to give a access of application to the users having age is only 18 and above 18
+       then based on condition age>=18 we can make a decision that particular user is able to use or not that application.
+       
+       
+       
+4.  Explain the purpose of the switch statement in Java and provide an example?
+
+->  switch statement allows u to select the one block of code from many blocks of code bases on the value or value of expression.
+
+	e.g 1.	if we want to set the temperature of AC based on the atmosphere temperature then in that case firstly we use
+	    if-else ladder to set the value based on the atmospheric temperature .suppose atmospheric temp. is between 40 to 45 then
+	    set value =0,else if temp. between 35 to 40 then set value =1 and so on.
+	    and then based on that value we switch the particular block of code which will decide the temperature of the AC.
+	    
+	    2.	if we want to display the dayName of week based on the dayOfWeek(from 0 to 6) then we case use the switch statement.
+	    we write 7 cases for 7 values and in each case we assign dayName of that particular value.
+	    
+	    
+	    Rules to be followed for switch statement
+	    1.for case only constant values are allowed.
+	    2.No duplicate case is allowed 
+	    3.break statement is used to terminate the sequence of code 
+	    4.default case is not mandatory ,it will execute if the case is not present of that value. we can write anywhere any cases.
