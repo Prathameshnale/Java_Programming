@@ -3,9 +3,22 @@ import java.util.Scanner;
 public class demo {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
+		Student s1 = new Student();
 		
 		
 	}
 
 }
+
+
+class Student{
+	private int id;
+	private String name;
+	private String email;
+	
+	Student(){
+	}
+	
+	
+	}

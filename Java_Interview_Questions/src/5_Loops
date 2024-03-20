@@ -1,0 +1,36 @@
+1. What is the purpose of the for loop in Java? Provide an example.
+
+-> for loop is used to execute the set the code repeatedly . and it is recommended to use when number of iterations are fixed.
+
+
+ 	e.g if you want to show a message 100 times then rather than typing it you can use for loop.
+ 	
+ 	
+ 	
+ 	
+ 	
+2. What is the purpose of the while loop in Java? Provide an example.
+
+-> while loop is used to execute the set of code repeatedly based on the boolean condition. and it is recommended to use when we 
+   doesn't know the number of iterations.
+   
+   e.g before the new year if you want to the reverse count down from 10 to 0 second in that case we can use while loop
+       condition = while(second>0)
+       
+       
+       
+       
+3. What is the purpose of the do loop in Java? Provide an example.
+
+-> do while loop is used execute the set of statements until the given condition becomes the true.
+	It is same as while loop but in do while loop condition is checked after the execution of set of code.
+   
+   e.g if we told user that guess the number from 1 to 10 then for that game we can use do while loop
+       inside do block we scan/take the input from user and if it guessed correctly based on the condition then and then only
+       it will stop keep scanning otherwise it will keep taking the input from user until user not entered correct guessed number.
+       
+       
+4. what is the difference between for and while loop in java?
+
+->for loop is used when number of iterations is known and while loop used when number iterations and not known and while loop iterate 
+  until the condition becomes false.
