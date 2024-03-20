@@ -31,3 +31,33 @@
 	3. class is a declared once.							-object can be created many times.
 	
 	e.g Human,etc												e.g Man,Woman,etc
+	
+	
+	
+	
+4. What is instance variable?
+
+-> Instance variable are non-static variable declared inside the class and outside the constructor,method or block.
+   they are created when object of that class created and destroyed when object is destroyed. every object has their own copy
+   of this instance variable.
+   
+   e.g  class - person
+   		object -p1
+   		instance variable -name,id,email,etc.
+   		
+   		
+   		
+5. what is instance method?
+
+-> instance methods are non-static methods defined inside the class and called only after the object of class has been created.
+   e.g. class - person
+   		method - walk();
+      
+
+
+
+
+
+
+
+
