@@ -1,0 +1,33 @@
+1. What is class?
+
+-> Class is a fundamental unit of object oriented programming. Class is a blueprint or template for a object or entity, it defines the
+   structural behavior of a object.
+   Class has a variable,property (data member),methods,etc.
+   
+   e.g Person is a class having data member String name and so on , methods walk() and so on 
+       now we can make any number of objects of a class. as person p1,p2,and so on.
+       
+       
+
+       
+2. what is Object?
+
+-> An Object is a entity of a class, it represents the real world entity. Each object is belongs to some class.
+   Every object has state and behavior ,state of object is determined by value of properties/variables/data members and
+   behavior of object is defined by the methods.
+   
+   e.g p1 is a Object of person class.
+       then state of object is like name of person,age of person,and so on
+       and behavior is like person can walk(),talk(),and so on.
+       
+       
+       
+       
+3. What is the difference between a class and an object?
+
+->   		Class 												Object
+  	1. Class is blueprint or template of object.			-object is a entity of class it represents real world entity.
+	2. Class is a logical entity.							-object is a physical entity.
+	3. class is a declared once.							-object can be created many times.
+	
+	e.g Human,etc												e.g Man,Woman,etc

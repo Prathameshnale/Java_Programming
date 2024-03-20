@@ -1,0 +1,95 @@
+1. What is the purpose of the for loop in Java? Provide an example.
+
+-> for loop is used to execute the set the code repeatedly . and it is recommended to use when number of iterations are fixed.
+
+
+ 	e.g if you want to show a message 100 times then rather than typing it you can use for loop.
+ 	
+ 	
+ 	
+ 	
+ 	
+2. What is the purpose of the while loop in Java? Provide an example.
+
+-> while loop is used to execute the set of code repeatedly based on the boolean condition. and it is recommended to use when we 
+   doesn't know the number of iterations.
+   
+   e.g before the new year if you want to the reverse count down from 10 to 0 second in that case we can use while loop
+       condition = while(second>0)
+       
+       
+       
+       
+3. What is the purpose of the do while loop in Java? Provide an example.
+
+-> do while loop is used execute the set of statements until the given condition becomes the true.
+	It is same as while loop but in do while loop condition is checked after the execution of set of code.
+   
+   e.g if we told user that guess the number from 1 to 10 then for that game we can use do while loop
+       inside do block we scan/take the input from user and if it guessed correctly based on the condition then and then only
+       it will stop keep scanning otherwise it will keep taking the input from user until user not entered correct guessed number.
+       
+       
+4. what is the difference between for and while loop in java?
+
+-> for loop is used when number of iterations is known and while loop used when number iterations and not known and while loop iterate 
+   until the condition becomes false.
+  
+  
+  
+  
+
+  
+4. What is the purpose of the break statement in Java? Provide an example of its usage.
+
+-> break statement is used to terminate the loop and give control to the next statements after the loop. and
+   break statement is also used to inside switch case to terminate the particular case.
+   
+   
+   e.g -> suppose if we want to print the first 5 odd numbers then on every odd number set the one count variable and keep it increment
+          and as count becomes 5 inside if statement give break statement then it will stop iterating the loop.
+          
+          
+ 
+ 
+ 
+5. Explain the purpose of the continue statement in Java and provide an example.
+
+-> Continue statement is used to skip the next statements in current iterations of the loop.
+
+	e.g -> while printing the digits from 1 to 10 suppose if we don't want to print the number 5
+	       then in that case use continue statement as, inside if statement give condition num==5 then continue;
+	       then it will skip further iterations and it will start execute next iteration.
+	       
+	       
+	       
+	       
+6. Describe the different types of comments in Java and their purposes.
+
+-> Comments are used to keep the notes inside source code that are the ignored by the compiler during the compilation.
+
+
+ there are three types of comments 
+	1.single line comment -> for commenting the single line use forward slash two times as //
+	
+	2.Multi-line comments -> for commenting multiple line use /* at the start and */ at the end.
+	
+	3.Java Doc comments  -> used to generate the documents start with /** and end with */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
