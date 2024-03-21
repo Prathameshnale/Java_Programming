@@ -1,24 +1,52 @@
 import java.util.Scanner;
-
-public class demo {
-
-	public static void main(String[] args) {
+class demo{
+	
+	class Person{
+		String name;
+		String email;
 		
-		Student s1 = new Student();
+		Person(){
+			System.out.println("inside default of Parent");
+		}
+		
+		Person(String name,String email){
+			System.out.println("inside para constructor");
+		}
 		
 		
 	}
-
+	
+	
+	class Employee extends Person{
+		
+		int id;
+		double salary;
+		
+		Employee(){
+			System.out.println("inside default of Employee");
+		}
+		
+		Employee(double salary){
+			System.out.println("inside para of Employee");
+		}
+		
+		
+		Employee(int id,double salary,String name,String email){
+			
+			this(salary);
+		
+			
+		}
+		
+		
+	}
+	
+	
+	
+	public static void main(String [] args) {
+		
+		
+		
+	}
+	
 }
-
-
-class Student{
-	private int id;
-	private String name;
-	private String email;
-	
-	Student(){
-	}
-	
-	
-	}

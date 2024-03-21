@@ -27,7 +27,7 @@
    during compilation compiler compile that .java file and convert it into .class file (we called it as byte code)
    compiler will give the class name to the .class file having main method present so we generally give the file name and class same.
    after compilation .class file will go to the JVM (Java Virtual Machine).
-   JVM having 3 parts->
+   JVM having 4 parts->
    		1.class loader
    		2.JVM memory
    		3.Execution engine

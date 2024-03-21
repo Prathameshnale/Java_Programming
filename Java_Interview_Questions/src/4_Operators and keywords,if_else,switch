@@ -1,5 +1,7 @@
 1. Explain different types of operators in Java with examples?
 
+	Operator are the symbols that are used to perform the operation on the variables and manipulate the data.
+
 -> 1.Arithmetic Operators - addition + ,Subtraction - ,multiplication * ,division / ,modulus %
    2.Logical Operators -    logical AND && , logical OR || , logical NOT !
    3.Bitwise Operators -    bitwise AND &, bitwise OR |, bitwise NOT ~, bitwise XOR ^

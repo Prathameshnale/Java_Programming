@@ -1,0 +1,99 @@
+1. what are static blocks and static initializers in Java ?
+
+-> Static block or static initializer block are used to initialize the static fields/data member inside the class.
+   we declared static block when we want to initialize the static members. Static block is executed only once through out the 
+   program.Static block executes even before the constructor of that class executes.
+   static block declared with static keyword followed by curly bracket 
+   e.g    static{
+   
+          }
+          
+          
+          
+
+2. What is constructor? 
+
+-> Constructor is a block of code that used to initialize the state or value of the object when the object is created.
+	constructor is called when every time when we create the object with new keyword. Even if we do not provide any 
+	constructor compiler will provide default constructor.
+	constructor has same name as the class name there is no return type to the constructor.
+	
+	
+	There are 3 types of constructor in java
+	
+	1.Default constructor -> 
+						The constructor that has no parameters are called as default constructor. if we define the default
+	constructor then compiler will not provide default constructor. If we define default constructor then fields are initialized with
+	our given values inside the default constructor. if we do not write default constructor the compiler provide it's own default
+	constructor which will initialize the values with default values.
+	
+	
+	2.Parameterized constructor -> 
+						The constructor that has parameters provided while making the object of that class is called as parameterized
+    constructor.Once we define the parameterized constructor then compiler will not provide the default constructor so in case if
+    we need of default constructor after the parameterized constructor then we need to define manually default constructor.
+	
+	
+	3.Copy constructor ->
+					The copy constructor is passed with another object which will be copy the data available into passed object to the 
+	newly created object.
+	
+	e.g  Person(Person p){
+	
+		this.name=p.name;
+	    this.email=p.email;
+	}
+	
+	main(){
+	Person p1=new Person(p);
+	}
+	
+	
+	
+	
+	
+3. How to call one constructor from the other constructor ?
+
+-> To call constructor from another constructor of same class use this() keyword. Based on the parameters, parameters are passed
+   inside the this(). this() keyword is must be used at the first line inside the constructor. we achieve constructor chaining using
+   this().
+
+   To call constructor from another constructor of parent class use super() keyword. it is also mandatory to call super() at the
+   first line inside constructor.
+   
+
+
+
+ e.g 
+ class Temp
+{
+    // using this keyword from same class
+    Temp()
+    {
+        this(5);
+        System.out.println("The Default constructor");
+    }
+ 
+    Temp(int x)
+    {
+        this(5, 15);
+        System.out.println(x);
+    }
+ 
+    Temp(int x, int y)
+    {
+        System.out.println(x * y);
+    }
+ 
+    public static void main(String args[])
+    {
+        new Temp();
+    }
+}
+	
+	
+	
+	
+	
+	
+	
