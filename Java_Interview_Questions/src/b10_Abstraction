@@ -1,0 +1,135 @@
+1. What is Abstraction?
+
+-> Hiding the implementation details of code and exposing only necessary information to the user is called as Abstraction.
+   It reduces the complexity of the code by ignoring the irrelevant details.
+   e.g -> Car - You start the car by pressing the start button and off the car by pressing the off button of car.in this case
+                you need not to know how the engine will start by pressing the start button. so all of the un-necessary parts of engine
+                are hidden from you and only necessary parts of a car only accessible to you.
+                
+  
+  In java Abstraction is achieved by using keyword abstract to the class and interface.
+  
+  
+  1. By making the class abstract.
+  
+  
+  
+  	what is abstract method ?
+  	
+  	-> The method does not have the implementation for the declaration and declared with the abstract keyword is called as abstract method.
+  	
+  	e.g    abstract public void show();   //abstract method
+  	
+  	
+  	
+  	
+  
+   	What is abstract class ?
+   	
+   	-> A class can have at list one abstract method or a class that is restricted to make a object is called as abstract class.
+   	
+   	 	Rules -> 
+   	 		-If any class has at list one method abstract then that class becomes the abstract class and to write abstract keyword 
+   	 		with the class is mandatory otherwise it will shows the error
+   	 		-If class is abstract then all the abstract methods only present inside that abstract class are compulsory to override into the
+   	 		inherited child classes and all extended child classes must have to write the implementation of the method(implementation may be
+   	 		different) otherwise make that class abstract.
+   	 		-We cannot make the object of abstract class but we can make the reference of abstract class which will point to the object 
+   	 		of it's child non-abstract classes.
+   	 		-we cannot have the abstract constructor inside abstract class but we can have the constructor in abstract class which will
+   	 		be called by it's child constructor with the help of super() keyword;
+   	 		
+   	 		
+ 			   
+   	   
+   	   e.g     
+   	   
+   	   abstract class Parent{
+		
+			String name;
+			Parent(String name){
+				this.name=name;
+			}
+			
+			abstract public void show();
+		}
+	
+	
+		class Child extends Parent{
+	
+			String email;
+			
+			Child(String name,String email){
+				super(name);
+				this.email=email;
+			}
+	
+			@Override
+			public void show() {
+				System.out.println("inside child show");
+				
+			}
+			
+		}
+
+
+		public class demo {
+	
+			public static void main(String[] args) {
+				
+				// Parent p = new Parent("prathamesh"); //not allowed
+			
+				Parent p = new Child("prathamesh","prathamesh@gmail.com");
+				Child c = new Child("arjun","arjun@gmail.com");
+			}
+	
+		}
+		
+		
+		
+		
+		
+		
+	2. By making the interface -> 
+	
+	
+	what is interface ?
+	
+	->Interface is a blueprint of a class. It has only public,static,final and abstract method.
+	
+	Rules ->
+	
+		-All the variables inside the interface are considered as public static and final.
+		-Method inside interface have only declaration without implementation except default and static methods.
+		-All the methods are compulsory to override inside implemented class or extended interface except static and default.
+		-we cannot override static method inside implemented class or interface.
+		-we may or may not override the default method inside implemented class or interface. If we not override then it will 
+		 call automatically from the interface and if we override then it will call from the implemented class or interface. and
+		 If we override default method then implementation of that method inside interface and implemented class may be differ.while
+		 calling it will call from the implemented class if present.
+		-We can implement/inherit multiple interface inside class by using keyword implement.
+		-We can extend multiple
+		-All the methods inside the interface are considered as public so writing keyword public is optional.
+		
+	
+	
+	
+	what is use of Interface OR Why interface?
+	
+	-> Interface in java are used to achieve the abstraction and multiple inheritance in java.
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	

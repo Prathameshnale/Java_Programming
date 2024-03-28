@@ -11,7 +11,7 @@
  
  Binding/Integrating data members and methods in a single unit inside class called as encapsulation.
  encapsulation provides the security, data members of a class are hidden from the other class. data member of that
- class are accessible outside the class to methods of that class only.
+ class are accessible outside the class by methods of that class only.
  
  e.g -> 1. Medicine capsule, capsule binds all the medicine material inside which cannot be accessible outside.
  		2. Office bag,School bag - which hides the notes inside the bag which accessible only to the owner of that bag.
