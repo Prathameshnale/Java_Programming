@@ -1,0 +1,81 @@
+
+ There are 4 main pillars of Oops concept
+ 1.Abstraction
+ 2.Encapsulation
+ 3.Inheritance
+ 4.polymorphism 
+ 
+ 
+ 
+ 1. what is Encapsulation?
+ 
+ Binding/Integrating data members and methods in a single unit inside class called as encapsulation.
+ encapsulation provides the security, data members of a class are hidden from the other class. data member of that
+ class are accessible outside the class to methods of that class only.
+ 
+ e.g -> 1. Medicine capsule, capsule binds all the medicine material inside which cannot be accessible outside.
+ 		2. Office bag,School bag - which hides the notes inside the bag which accessible only to the owner of that bag.
+ 
+ 
+ Access modifer -> Access modifiers are used to give access control of particular data member,method or class.
+ 
+ There are 4 access modifiers in Java
+ 
+ 	public
+ 	private
+ 	protected
+ 	default
+ 
+ 
+ 
+ 
+ 					package p
+		
+		
+		class A
+		{
+			public x;    //public
+			private y;   //private
+			protected z; //protected
+			int i;       //default
+		
+		}
+		
+		class B extends A
+		{
+		
+		}
+		
+		class C
+		{
+		
+		}
+		
+		
+					package q
+					import package p;
+		
+		class D extends A
+		{
+		
+		}
+		
+		class E
+		{
+		
+		}
+		
+		
+		
+		class          		 A			B			C			D			E		
+		
+		private(y)			yes         No          No 			NO          NO
+		
+		public (x)			yes			yes 		yes			yes			yes
+		
+		protected (z)		yes			yes			yes			yes   		No
+		
+		default (i)			yes			yes			yes			No  		No
+		
+		
+ 

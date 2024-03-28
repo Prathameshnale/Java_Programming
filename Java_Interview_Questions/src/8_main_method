@@ -1,3 +1,12 @@
 1. Explain about main method and  Why main() method is public, static and void in java ?
 
--> 
+-> main() method is a starting point of execution of a java program. JVM will call the main() method.
+   public static void main(String[] args){}  ,String[] args is array of object we need to pass that object from the 
+   command line.
+   every Java program have at list one main() method.
+   
+   
+   
+   
+   
+2.

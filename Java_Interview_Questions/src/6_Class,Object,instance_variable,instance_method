@@ -50,8 +50,16 @@
 5. what is instance method?
 
 -> instance methods are non-static methods defined inside the class and called only after the object of class has been created.
+   method contains the executable body that can be applied to specific object of a class.method contains the access modifier,return type,
+   method name and list of arguments separated by comma and body of that method.
    e.g. class - person
-   		method - walk();
+   		method - public void walk(){
+   					
+   					System.out.println("person can walk");
+   				}
+   		
+   		
+  
       
 
 
