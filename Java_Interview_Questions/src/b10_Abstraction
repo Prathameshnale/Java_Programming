@@ -108,7 +108,10 @@
 		 If we override default method then implementation of that method inside interface and implemented class may be differ.while
 		 calling it will call from the implemented class if present.
 		-We can implement/inherit multiple interface inside class by using keyword implement.
-		-We can extend multiple
+		-One interface can extend any number or multiple interfaces using keyword extend separated by comma.
+		-One class can implement multiple interfaces by using keyword implement separated by comma.
+		-class cannot extend multiple classes.
+		-interface cannot extend or implement any class.
 		-All the methods inside the interface are considered as public so writing keyword public is optional.
 		
 	
@@ -119,6 +122,14 @@
 	-> Interface in java are used to achieve the abstraction and multiple inheritance in java.
 	
 	
+	
+	What is difference between Abstract class and interface?
+	
+	->-Abstract class represent Is-A relationship with child class but interface cannot represent Is-A relationship.
+	  -Abstract class can override methods of object class. but interface cannot override object class methods.
+	  -Abstract class can have constructor but interface cannot have constructor.
+	  -All the variable can be public,private,protected or default but in interface variables are by default public,static and final.
+	  -One class extend only one class cannot extend multiple classes but one interface can implement multiple interfaces.
 	
 	
 	
