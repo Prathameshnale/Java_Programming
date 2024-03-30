@@ -1,6 +1,6 @@
 1. What is Abstraction?
 
--> Hiding the implementation details of code and exposing only necessary information to the user is called as Abstraction.
+-> Hiding the irrelevant implementation details of code and exposing only necessary information to the user is called as Abstraction.
    It reduces the complexity of the code by ignoring the irrelevant details.
    e.g -> Car - You start the car by pressing the start button and off the car by pressing the off button of car.in this case
                 you need not to know how the engine will start by pressing the start button. so all of the un-necessary parts of engine
@@ -26,7 +26,7 @@
   
    	What is abstract class ?
    	
-   	-> A class can have at list one abstract method or a class that is restricted to make a object is called as abstract class.
+   	-> A class which can have at list one abstract method or a class that is restricted to make a object is called as abstract class.
    	
    	 	Rules -> 
    	 		-If any class has at list one method abstract then that class becomes the abstract class and to write abstract keyword 
@@ -35,9 +35,9 @@
    	 		inherited child classes and all extended child classes must have to write the implementation of the method(implementation may be
    	 		different) otherwise make that class abstract.
    	 		-We cannot make the object of abstract class but we can make the reference of abstract class which will point to the object 
-   	 		of it's child non-abstract classes.
+   	 		of it's non-abstract child classes.
    	 		-we cannot have the abstract constructor inside abstract class but we can have the constructor in abstract class which will
-   	 		be called by it's child constructor with the help of super() keyword;
+   	 		be called from it's child constructor by using the super() keyword.
    	 		
    	 		
  			   
@@ -95,7 +95,7 @@
 	
 	what is interface ?
 	
-	->Interface is a blueprint of a class. It has only public,static,final and abstract method.
+	->Interface is a blueprint of a class. It has only public,static,final variable,default methods,static methods and abstract methods.
 	
 	Rules ->
 	
