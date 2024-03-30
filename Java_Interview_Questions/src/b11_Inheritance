@@ -1,0 +1,79 @@
+1. What is Inheritance?
+
+-> Inheritance is allowed you to acquire all features of a one class(super class) into another class(sub class) like properties and behaviors 
+   or (field and methods).
+
+
+e.g car class extends vehicle class. so here in this case all the properties and behavior of vehicle class is acquire by the car class.
+   so vehicle is used to transport the data. so this property is acquired by the car also. and car class can also have it's additional 
+   behavior.
+   
+ 
+ 
+2. What is super/parent class and what is sub/child class?
+
+-> Super class / Parent class -> The class whose features are acquired that class is known as super or parent class.
+   Sub class / Child class -> The class which acquires the features of super/parent class is called as sub/child class.
+ 
+   
+   
+3. Why we need Inheritance ?
+
+-> -To achieve Re-usability of code.
+   -To achieve method overriding.
+   
+   
+   
+   
+   
+4. what is method overriding?
+
+-> The method having the exact same name ,same number of parameters and same return type but presents in different inherited classes
+   then it is called as method overriding.
+   Method overriding is used to provide a particular implementation to method in sub class which declared in it's super class.
+   
+
+   
+   
+5. What are the types of inheritance in java?
+
+-> 4 types of inheritance in java
+
+	1.Single inheritance ->
+		A sub class is derived from only one parent class. which acquires the properties and behavior of only one parent class is called
+		as Single or simple inheritance.
+		
+		e.g - Tiger class extends Animal class
+		      so here all the properties of single parent class animal is acquired by the tiger class.
+	
+	
+	
+	
+	2.Multilevel Inheritance ->
+		A sub class is derived from one parent class and that parent class is also derived from it's parent class and so on such 
+		inheritance is called as multilevel inheritance.
+		
+		
+		e g. - class contractEmployee derived from class Employee and class Employee is derived from class Person.
+	
+	
+	
+	
+	3.Hierarchical Inheritance -> 
+		Multiple number of classes are derived from the single parent class such inheritance is called as hierarchical inheritance.
+		
+		e.g - class Tiger, class Dog, class Hours all are derived from single parent class Animal.
+	
+	
+	
+
+	4.Hybrid Inheritance -> Hybrid inheritance is a combination of a two or more than two inheritance such inheritance is called as
+	                        hybrid inheritance.
+	                        
+	                        
+	    e.g -  class dog is derived from Pet class, class tiger is derived from class wild class and
+	           both pet class and wild class are derived from single parent class Animal.
+	
+	
+	
+	

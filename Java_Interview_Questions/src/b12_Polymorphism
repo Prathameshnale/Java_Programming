@@ -1,0 +1,167 @@
+1. what is Polymorphism?
+
+-> poly - many
+   morphism - foms
+   
+   The ploymorphism is derived from two Greek words Poly and Morphism poly means many and mophism means forms.
+   so ploymorphism is to ability of to display a message in different forms or ability to perform one operation in different way is called
+   as polymorphism.
+   
+   e.g 1.method overloading
+   	   2.method overriding
+   	   
+   	   
+   	   
+   	   
+2. what is Compile time and Run time polymorphism?
+
+-> Compile time polymorphism - 
+
+			Which overloaded method is getting called inside a class is decided at compile time then it is called as
+   			compile time polymorphism.
+   			Compile time polymorphism is achieved by method overloading.
+   			
+
+   
+			 
+	e.g -  class Animal{
+				String name;
+				double weight;
+				
+				public void eat(int kg) {
+					
+				}
+				
+				public void eat(int gram,int kg) {
+					
+				}
+			}
+			
+			
+			class demo{
+				public static void main(String[] args) {
+					Animal a1= new Animal();
+					
+					a1.eat(1);
+				}
+			}
+			
+			so here which eat() method is getting called is decided at compile time so it is called as compile time polymorphism
+			
+			
+			
+	Run Time Polymorphism ->
+	
+			which overrid's method is getting called is decided at run time is called as run time polymorphism.
+			Rum time polymorphism is achieved by method overriding.	
+			
+    e.g - 
+				class Animal{
+					String name;
+					double weight;
+					
+					public void walk() {
+						
+					}	
+				}
+				
+				
+				class Dog extends Animal{
+					public void eat() {
+						System.out.println("eat chiken");
+					}
+				}
+				
+				class Tiger extends Animal{
+					public void eat() {
+						System.out.println("eat Meat");
+					}
+				}
+				
+				
+				
+				class demo{
+					public static void main(String[] args) {
+						Animal a1=new Dog();
+						
+						a1.eat();	
+					}
+				}
+   
+   		so here eat() method of which class is getting called is decided at runtime by the JVM is called as Run Time polymorphism.
+   
+   
+   
+   
+  
+  
+3. what is method overloading and method overriding?
+
+->  method overloading -> Method having same name but different number of arguments or sequence of arguments within the same class 
+                          return type doesn't matter then it is called as method overloading.
+   
+   
+   
+   e.g - class Animal{
+				String name;
+				double weight;
+				
+				public void eat(int kg) {
+					
+				}
+				
+				public void eat(int gram,int kg) {
+					
+				}
+			}
+			
+			
+			
+	method overriding -> The method having the exact same name ,same number of parameters and same return type but presents in different inherited classes
+   					     then it is called as method overriding.
+   					     
+   					     
+   e.g -    	class Animal{
+					String name;
+					double weight;
+					
+					public void walk() {
+						
+					}	
+				}
+				
+				
+				class Dog extends Animal{
+					public void eat() {
+						System.out.println("eat chiken");
+					}
+				}
+				
+				class Tiger extends Animal{
+					public void eat() {
+						System.out.println("eat Meat");
+					}
+				}
+   
+   
+   
+4. Can you override the private or final method in java?
+
+-> No, Private method is not accessible outside the class since it cannot be override and
+       final method is not modifiable so we final method is also can not override.
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+    
