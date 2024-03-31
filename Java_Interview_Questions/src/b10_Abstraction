@@ -122,6 +122,10 @@
 	-> Interface in java are used to achieve the abstraction and multiple inheritance in java.
 	
 	
+	Can an interface have variable?
+	
+	-> Yes, interface has variables they are by default public static and final.
+	
 	
 	What is difference between Abstract class and interface?
 	
@@ -133,6 +137,10 @@
 	
 	
 	
+	Can Abstract class have constructor?
+	
+	->Yes abstract class have constructor and it is called when the object of it's sub class is created. and 
+	  it is invoke or passed the arguments from it's base class constructor by using the super() method.
 	
 	
 	

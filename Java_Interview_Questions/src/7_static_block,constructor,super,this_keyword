@@ -45,6 +45,7 @@
 	}
 	
 	main(){
+	Person p = new Person("prathamesh","abc@gmail.com"); 
 	Person p1=new Person(p);
 	}
 	
@@ -94,6 +95,75 @@
 	
 	
 	
+4.Can you have multiple constructor inside a same class?
+
+-> Yes. we can have the multiple constructor inside a class but they should have different parameters.(method overloading).
 	
 	
+	
+5. What is purpose of this keyword?
+
+-> this keyword is used to refer the reference of the current object of class and it is also used in constructor to avoid 
+   conflict between the parameters and class variables.
+   It is also used to pass the parameters from one constructor to another constructor within the same class.(Constructor chaining)
+   while passing the argument it is used at very first line only inside the constructor.
+   
+   
+   e.g 
+   
+   class Employee{
+   
+   		Employee(x,y,z){
+	   		this(5,10);
+	   		
+	   }
+	   
+	   
+	   Employee(a,b){
+	   
+	   
+	   }
+   
+   }
+   
+   
+
+6. what is purpose of super keyword?
+
+->super keyword is used to call/invoke and passes arguments to the super class constructor from the current class constructor.
+  It should used at very first line of the constructor.
+  It is also used to access the super class fields and method 
+  
+  e.g 
+  
+  class Animal{
+  
+	  Animal(int a,int b){
+	  
+	  }
+	  
+	  public void eat(){
+	  
+	  }
+  
+  }
+  
+  
+  class Dog extends Animal{
+  
+	  Dog(int a,int b,int c){
+	  	super(a,b);
+	  	
+	  }
+	  
+	  System.out.println("message = "+super.a);
+	  super.eat();
+	  
+  }
+	
+	
+	main(){
+	
+		Dog d = new Dog(5,15,25);
+	}
 	

@@ -60,9 +60,18 @@
    		
    		
   
-      
+6. What is shallow copy and Deep copy?
 
+-> In both cases we need to use the implement the clonable marker interface with the  class and implement the clone method of object class.
+	Shallow copy -> Shallow copy is used to copy the object but while coping the object in shallow copy, primitive type fields are copied
+                   with the value but the value of object type fields are not copied only reference of object type fields are copied. 
+                   so in this case if we do changes in one object then it will also reflect in original object also.  
 
+	Deep copy -> Deep copy is also used to copy the object, while coping the object the values  are copied of both primitive and 
+	             object/reference type fields. so to copy values of reference type we need to write our own login inside the clone method
+	             so in this case both object are totally independent from each other if we do changes in one object then it won't reflect
+	             into another object.
+	    
 
 
 
