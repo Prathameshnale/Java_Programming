@@ -1,0 +1,104 @@
+1. what is final class in Java?
+
+-> A class declared with final keyword which cannot be inherited further is called as final class.
+
+	e.g 
+		final class Person{
+			private String name;
+			public int id;
+			
+			public void info() {
+				System.out.println("Inside info method of Person class");
+			}	
+		}
+		
+		//class Student extends Person{   //not allowed
+		//	
+		//}
+		
+		public class Demo1 {
+		
+			public static void main(String[] args) {
+				Person p1 = new Person();
+				p1.info();
+						
+			}
+		}
+
+
+
+2. what is final method in Java?
+
+->A method which declared with final keyword and which cannot be override further is called as final method.
+
+	e.g 
+	
+		class Person{
+			private String name;
+			public int id;
+			
+			final public void info() {
+				System.out.println("Inside info method of Person class");
+			}	
+			
+			public void info(int a) {
+				System.out.println("Inside info method of Person class");
+			}
+		}
+		
+		class Student extends Person{  
+			
+		//	public void info() {                                               //not allowed
+		//		System.out.println("Inside info method of Student class");
+		//	}
+		}
+		
+		public class Demo1 {
+		
+			public static void main(String[] args) {
+				Person p1 = new Person();
+				p1.info();
+						
+			}
+		}
+
+
+
+3. what is final variable in java?
+
+->Variable declared with keyword final is called as final variable which cannot be modified/changed once declared and it is mandatory
+  to initialize the final variable at the time of declaration.
+  
+  e.g 
+  
+	  class Person{
+			//final int a1;  //not allowed
+			
+			final int a=5;
+			
+			//a=10;    //not allowed
+			
+			public void info() {
+				System.out.println("Inside info method of Person class");
+			}	
+		}
+		
+		
+		public class Demo1 {
+		
+			public static void main(String[] args) {
+				Person p1 = new Person();
+				p1.info();			
+			}
+		}
+
+
+
+
+
+
+
+
+
+
+

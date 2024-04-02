@@ -115,7 +115,7 @@
 				}	
 				Student s1 = new Student();
 				s1.marks=50;
-			}	
+			}	 
 		}
 		
 		public class Demo1 {

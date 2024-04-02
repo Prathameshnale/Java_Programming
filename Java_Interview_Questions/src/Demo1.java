@@ -2,29 +2,22 @@
 
 
 class Person{
-	private String name;
-	public int id;
+	//final int a1;  //not allowed
+	
+	final int a=5;
+	
+	//a=10;    //not allowed
 	
 	public void info() {
 		System.out.println("Inside info method of Person class");
 	}	
-	
-	public void display() {
-		System.out.println("name = "+name+" id = "+id);
-	}
 }
+
 
 public class Demo1 {
 
 	public static void main(String[] args) {
-		Person p1 = new Person() {
-			
-			public void info() {
-				System.out.println("Inside info method of Anonymous class");
-			}
-		};
-		System.out.println();
-		p1.info();
-		p1.display();
+		Person p1 = new Person();
+		p1.info();			
 	}
 }
