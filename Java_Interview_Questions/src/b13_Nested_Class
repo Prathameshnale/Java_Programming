@@ -1,0 +1,174 @@
+1 What is nested class?
+
+-> One class is defined inside another class then this concept is called as Nested/Inner classes.Inner class can be static or non-static.
+
+
+    For Non-static Inner class -
+   -If inner class is non static then while making the reference use outerClassName.InnerClassName ReferenceName and
+    while making the object of inner class objectNameOfOuterClass.new InnerClassName();
+    	e.g Outerclass.InnerClass innerObj = outerObj.new InnerClass();
+    	-It means we required the help of outer class object to create the inner class object.
+   -We can access the all fields of outerClass inside the InnerClass including private member but cannot access any data member of Inner Class
+    in Outside class.
+    
+    
+    
+    
+    e.g -> (Non static inner class)
+    
+		class Person{
+			private String name;
+			private int id;
+			
+			public void info() {
+				System.out.println("name = "+name+" id = "+id);
+			}
+			
+			class Student{
+				private double marks;
+				public void display() {
+					System.out.println(" marks = "+marks);
+					System.out.println("name = "+name+" id = "+id); //access data member of outerClass
+				}
+			}
+		}
+		
+		public class Demo1 {
+		
+			public static void main(String[] args) {
+				Person p1 = new Person();
+				p1.info();
+				
+				Person.Student s1 = p1.new Student(); //making reference and object of non static inner class
+				s1.display();
+			}
+		}
+		
+		
+	
+	For static inner class-
+	
+	-If inner class is static the while making the reference use OuterClassName.InnerClassName objName and while making the object
+	 use new OuterClassName.InnerClassName();
+	-e.g OuterClass.InnerClass obj = new OuterClass.InnerClass();
+	-We do not required the outer class object to create the inner class Object.
+	-If InnerClass is static then we cannot access any data member inside the non-static outer class.
+	
+	e.g
+	
+	    class Person{
+			private String name;
+			public int id;
+			
+			public void info() {
+				System.out.println("name = "+name+" id = "+id);
+			}
+			
+			static class Student{
+				public double marks;
+				public void display() {
+					System.out.println(" marks = "+marks);
+					//System.out.println("name = "+name+" id = "+id); //cannot access data member of outerClass
+				}
+			}
+		}
+		
+		public class Demo1 {
+		
+			public static void main(String[] args) {
+				Person p1 = new Person();
+				p1.info();
+				p1.id=5;
+				
+				Person.Student s1 = new Person.Student(); //making reference and object of non static inner class
+				s1.display();
+				s1.marks=45;
+			}
+		}
+	
+	
+	
+	
+	
+	
+2. What is local inner Class?
+
+-> Inner class is defined inside a outer Class method is called as local inner class. and it can used within that method only.
+   -It means we cannot create object of that inner class outside the method in which it defined.
+   -It can access the all the fields of Outer class. 	
+	
+	
+	e.g
+		class Person{
+			private String name;
+			public int id;
+			
+			public void info() {
+				System.out.println("name = "+name+" id = "+id);
+				
+				class Student{
+					public double marks;
+					public void display() {
+						System.out.println(" marks = "+marks);
+						System.out.println("name = "+name+" id = "+id);
+					}
+				}	
+				Student s1 = new Student();
+				s1.marks=50;
+			}	
+		}
+		
+		public class Demo1 {
+		
+			public static void main(String[] args) {
+				Person p1 = new Person();
+				p1.info();		
+			}
+		}
+	
+	
+	
+	
+	
+	
+3. What is anonymous inner Class?
+
+->Anonymous inner class is a class which is defined without it's name. Basically it is used to implement interface or extends the class
+  which will be used only once or less number of times.
+	
+	
+	
+	e.g 
+		class Person{
+			private String name;
+			public int id;
+			
+			public void info() {
+				System.out.println("Inside info method of Person class");
+			}	
+			
+			public void display() {
+				System.out.println("name = "+name+" id = "+id);
+			}
+		}
+		
+		public class Demo1 {
+		
+			public static void main(String[] args) {
+				Person p1 = new Person() {
+					
+					public void info() {
+						System.out.println("Inside info method of Anonymous class");
+					}
+				};
+				System.out.println();
+				p1.info();
+				p1.display();
+			}
+		}
+	
+	
+	
+	
+	
+	

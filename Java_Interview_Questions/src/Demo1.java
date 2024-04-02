@@ -1,29 +1,30 @@
 
 
 
-interface Person{
-	public void walk();
+class Person{
+	private String name;
+	public int id;
 	
-	public static void run() {
-		System.out.println("Can be Run on two legs");
+	public void info() {
+		System.out.println("Inside info method of Person class");
+	}	
+	
+	public void display() {
+		System.out.println("name = "+name+" id = "+id);
 	}
-}
-
-class Employee implements Person{
-
-	@Override
-	public void walk() {
-		System.out.println("Can be walk");	
-	}
-
 }
 
 public class Demo1 {
 
 	public static void main(String[] args) {
-		Person p = new Employee();
-		p.walk();  //calling abstract method
-		Person.run();  //calling static method with the help of interface Name.
-
+		Person p1 = new Person() {
+			
+			public void info() {
+				System.out.println("Inside info method of Anonymous class");
+			}
+		};
+		System.out.println();
+		p1.info();
+		p1.display();
 	}
 }
