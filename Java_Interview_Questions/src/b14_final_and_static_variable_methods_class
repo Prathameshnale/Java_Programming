@@ -96,6 +96,91 @@
 
 
 
+4. What is static variable in java?
+
+->The variable declare with static keyword which is class level variable having only one copy of the memory and it belongs to the class
+  rather than any specific instance/object of class.
+  -By default static variable is initialized with value 0.
+  
+  e.g 
+	  	class Person{
+		
+			static int a=1;
+			
+			public void info() {
+				System.out.println("Inside info method of Person class");
+			}	
+		}
+		
+		public class Demo1 {
+		
+			public static void main(String[] args) {
+				Person p1 = new Person();
+				p1.info();
+				System.out.println("a = "+p1.a);
+			}
+		}
+
+
+
+
+5. What is final keyword used in java?
+
+-> The final keyword used in java to define the variable,methods,classes which cannot be modified further.
+
+
+
+6. What is static keyword in Java?
+
+-> static keyword is used to define the class level entity like methods and variable. which belongs to the class rather than any 
+   object or instance of class.
+   
+   
+   
+7. How do you prevent the method from being overridden in java?
+
+-> By making the method final we can prevent the method overriding in java.
+
+
+
+8. How do you prevent the class from being inherited in java?
+
+-> By making the class final we can prevent the inheritance in java. cause we cannot inherited the final class.
+
+
+9. Can a class can be both final and abstract?
+
+-> No, because we cannot inherit the final class and abstraction need to perform the inheritance so we cannot use both final and abstract.
+
+
+10. What is purpose of toString() method?
+
+-> toString() method is used to convert object into it's string representation format. or used to provide meaningful representation of object.
+
+
+11. what is the equals() method used for?
+
+-> equals() method is used for to compare/check the content of two objects is equal or not. It returns the boolean value.
+
+
+12. What is hashCode() method used for?
+
+-> Hashcode method is used to generate the unique integer value for the object. and these values are used to store the object inside
+   collections like Hashmap, Hashset and Hashtable.
+
+
+
+13. what is the purpose of clone() method in java?
+
+-> The clone() method in java is used to copy the object but to use the clone method we need to implement the clonable interface.
+
+
+
+14. 
+
+
+
+
 
 
 
