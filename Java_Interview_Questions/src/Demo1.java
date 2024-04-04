@@ -3,18 +3,32 @@
 
 class Person{
 	
-	static int a=1;
+	private int pid;
 	
-	public void info() {
-		System.out.println("Inside info method of Person class");
+	Person(){
+		System.out.println("Inside Person constructor");
 	}	
+	
+	{
+		pid=8876;
+		System.out.println("value of pid = "+pid);
+	}
+}
+
+
+class Employee extends Person{
+
+	Employee()
+	{
+		super();
+		System.out.println("Inside Employee constructor");
+	}
+	
 }
 
 public class Demo1 {
 
 	public static void main(String[] args) {
-		Person p1 = new Person();
-		p1.info();
-		System.out.println("a = "+p1.a);
+		Employee e1 = new Employee();	
 	}
 }

@@ -176,11 +176,93 @@
 
 
 
-14. 
+14. What is instance initializer block is used for?
+
+-> Instance initializer block is used for to initialize the instance variable when the object/instance is created. Instance initializer block
+   is invoke/execute every time when the new instance of the class is created.
+   -When instance is created the compiler will copy the statements from instance initializer block and paste it inside the constructor.
+   -so when object is created first constructor is invoke and call the super constructor if any super() or this() method is present at
+    first line of constructor then it will call super class constructor and then execute the code of instance initializer block and 
+    then execute the statements of that particular constructor.
+   -if there is no super() or this() method inside constructor then first instance initializer statements will be execute and then
+    that particular constructor's statements are executed.
+    
+    
+    
+   e.g - 1.
+   
+	   	class Person{
+	
+			Person(){
+				System.out.println("Inside Person constructor");
+			}	
+		}
+		
+		
+		class Employee extends Person{
+			private int pid;
+			Employee()
+			{
+				super();
+				System.out.println("Inside Employee constructor");
+			}
+			{
+				pid=8876;
+				System.out.println("value of pid = "+pid);
+			}
+		}
+		
+		public class Demo1 {
+		
+			public static void main(String[] args) {
+				Employee e1 = new Employee();	
+			}
+		}
+
+	output ->
+		Inside Person constructor
+		value of pid = 8876
+		Inside Employee constructor
 
 
-
-
+	  e.g - 2.
+	  
+		  	class Person{
+		
+				private int pid;
+				
+				Person(){
+					System.out.println("Inside Person constructor");
+				}	
+				
+				{
+					pid=8876;
+					System.out.println("value of pid = "+pid);
+				}
+			}
+			
+			
+			class Employee extends Person{
+			
+				Employee()
+				{
+					super();
+					System.out.println("Inside Employee constructor");
+				}
+				
+			}
+			
+			public class Demo1 {
+			
+				public static void main(String[] args) {
+					Employee e1 = new Employee();	
+				}
+			}
+			
+		output ->
+			value of pid = 8876
+			Inside Person constructor
+			Inside Employee constructor
 
 
 
