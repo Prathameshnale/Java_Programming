@@ -2,7 +2,9 @@
 
 -> Static block or static initializer block are used to initialize the static fields/data member inside the class.
    we declared static block when we want to initialize the static members. Static block is executed only once through out the 
-   program.Static block executes even before the constructor of that class executes.
+   program. It executes when the class loader loads the class.
+   -Static block executes before the constructor of that class execute, before the main method is called and before the object of class
+   is created.
    static block declared with static keyword followed by curly bracket 
    e.g    static{
    

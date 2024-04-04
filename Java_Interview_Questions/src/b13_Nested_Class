@@ -1,4 +1,4 @@
-1 What is nested class?
+1 What is nested class(Inner class)?
 
 -> One class is defined inside another class then this concept is called as Nested/Inner classes.Inner class can be static or non-static.
 
@@ -170,5 +170,7 @@
 	
 	
 	
-	
+4. what are the advantages of Nested/Inner class in java?
+
+-> Better Encapsulation, readability, code organization, maintainability,etc.
 	

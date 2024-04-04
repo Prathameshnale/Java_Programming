@@ -77,3 +77,24 @@ e.g car class extends vehicle class. so here in this case all the properties and
 	
 	
 	
+	
+6. How do we achieve multiple inheritance in java?
+
+-> Java does not support multiple inheritance cause in java we cannot extends multiple classes. So to achieve multiple inheritance
+   we need to use interface. We can implement multiple interface to the class.
+   
+   
+   
+   
+   
+7. why java does not support multiple inheritance?
+
+-> Because to avoid the complexity and ambiguity java does not supports multiple inheritance.
+   suppose we extends two classes and both of them having the same method let say display(). then while calling the method display()
+   compiler will confuse which display() method is to be call. so to avoid that ambiguity java does not support multiple inheritance.
+   
+   
+   
+8. what is method hiding in java?
+
+->
