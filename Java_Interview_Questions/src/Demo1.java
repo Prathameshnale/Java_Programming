@@ -9,12 +9,12 @@ class Person{
 }
 
 
-class Employee extends Person{
+// class Employee extends Person{
 
-	public static void display() {
-		System.out.println("Display of employee");
-	}
-}
+// 	public static void display() {
+// 		System.out.println("Display of employee");
+// 	}
+// }
 
 
 public class Demo1 {
