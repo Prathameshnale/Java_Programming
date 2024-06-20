@@ -7,22 +7,22 @@
    3.Bitwise Operators -    bitwise AND &, bitwise OR |, bitwise NOT ~, bitwise XOR ^
    4.Comparison Operators - equal to == , not equal to != , less than < ,greater than >, less than equal to <=, greater than equal to >=
    5.Assignment Operators - assign = , add and assign +=, sub and assign -=, multiply and assign *=, division and assign /=, 
-   							modulus and assign %=
+   							modulus and assign %= 
    							
  
  
 2.  List some important keywords in Java and their significance?
 
--> class						- used to declare the class
-   public,private,protected 	- this are the access modifiers used to control the access to class, fields, methods 
+-> class						- used to declare the class.
+   public,private,protected 	- this are the access modifiers used to control the access to class, fields, methods.
    static 						- static is used to create class level variables and methods.
    void							- used to indicate that method does not return anything.
-   final 						- used to declare constant variables,methods,class (unchangeable)
-   new 							- used to create instance of classes(object)
-   this                         - used to indicate current object in class
-   super						- used to refer super class or parent class of current class
-   if,else						- used for conditional statements
-   while,for                    - used for looping
+   final 						- used to declare constant variables,methods,class (unchangeable).
+   new 							- used to create instance of classes(object).
+   this                         - used to indicate current object in class.
+   super						- used to refer super class or parent class of current class.
+   if,else						- used for conditional statements.
+   while,for                    - used for looping.
    try,catch,finally            - used for exception handling.
    
    

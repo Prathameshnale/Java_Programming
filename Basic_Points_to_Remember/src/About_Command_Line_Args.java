@@ -41,7 +41,7 @@ class About_Command_Line_Args
 			int sum=0;
 			for(int i=0;i<args.length;i++)
 			{
-				int num=Integer.parseInt(args[i]);  //Incoming argumetns from command line are the type of String so here we
+				int num=Integer.parseInt(args[i]);  //Incoming arguments from command line are the type of String so here we
 				sum=sum+num;                         //we need to make then as Integer type i.e. num=Integer.parseInt();
 			}
 			System.out.println("Addition = "+sum);
