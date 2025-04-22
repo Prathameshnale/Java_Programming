@@ -28,18 +28,18 @@
   	
   							1.Primitive data type            		 2.Non primitive data types
   	
-  											size(bytes)
-  		 						   int           4 	->                    Integer        //first letter of all non primitive data type
+  										                 	size(bytes)
+  		 						                 int           4 	->                    Integer        //first letter of all non primitive data type
                                    float         4	->                    Float          //must be in capital letter and 
                                    char         1/2 ->                    Character      // in complete/full word
                                    double        8 	->                    Double
                                    short         2	->                    Short
                                    byte          1 	->                    Byte
                                    boolean       1 	->                    Boolean
-                                   long			 8						  Object
-                                   										  Arrays
-                                   										  String
-                                   										  classes
+                                   long		              	 8						  Object
+                                   										                    Arrays
+                                   								                  		  String
+                                   								                  		  classes
                                    										
                                    										
     Primitive -> there are two concepts in primitive 
