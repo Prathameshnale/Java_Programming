@@ -1,0 +1,17 @@
+List - List is a sub-interface of collection interface.
+
+    - Ordered elements/objects
+    - Duplicate elements/objects
+    - Null elements/objects allowed
+
+    methods of List interface -
+        1. get(index)          - to get element
+        2. set(index,element)  - to update element
+        3. int lastIndexOf(collection c)  - it return the index of last element in collection, -1 if empty
+
+    
+    Classes which implements List interface
+        1. ArrayList<>
+        2. LinkedList<>
+        3. Stack<>
+        4. Vector<> (less used)
