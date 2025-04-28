@@ -3,11 +3,11 @@
     List(sub-interface)                               Set (sub-interface)                             Queue (sub-interface) 
 
 
-    ArrayList<> (Class)
+    ArrayList<> (Class)                                                                                ArrayDeque
 
-    LinkedList<> (Class)
+    LinkedList<> (Class)                                                                               LinkedList
 
-    Stack<> (Class)
+    Stack<> (Class)                                                                                    PriorityQueue
 
     Vector<> (Class)
 
@@ -17,7 +17,7 @@
     Collection as framework - Collection in java provoids the architecture to store, manipulate the group of objects in single unit.
 
     Collection as interface - Collection is root interface in collection framework.
-                              Interator is superinterface of collection interface. 
+                              Iterator is superinterface of collection interface. 
                               Sub-interfaces of collection interface.
                               1. List
                               2. Set

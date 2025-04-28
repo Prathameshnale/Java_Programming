@@ -1,0 +1,17 @@
+Queue - Queue is also sub-inteface of collection interface
+      - Queue follows First-In-First-Out pattern, basically queue is a linear data structure have two ends front and rear.
+        we insert element from rear end and remove from the front.
+      - Queue considered as Thread-safe (we can use multi-threding)
+
+methods in Queue interface
+        1. add()   or   offer()     - both are used to add element from tail/rear but in case of queue is full then add() shows 
+                                      exception but offer() will return false
+        2. remove() or poll()       - both are used to  remove/delete element from head/front and return head but in case of empty 
+                                      queue remove() show exception and poll() return null.
+        3. element() or peek()      - both are used to retrive head element only(not remove head) and peek() return null in case of
+                                      empty queue.
+
+Classes which implements Queue interface
+       1.LinkedList
+       2.PriorityQueue
+       3.ArrayDequeu
