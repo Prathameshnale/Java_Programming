@@ -1,0 +1,20 @@
+
+Java is platform independent (JVM makes java platform independent) but
+JVM is not platform independent. JVM is platform dependent.
+        it mean you need JVM in your muchine according to your machine OS operating system.
+        if you have windows then you need JVM for windows , for MAC you need JVM for MAC (this is how JVM is platform dependent)
+
+java Code/ Source code  -> compiler  ->  ByteCode   ->  JVM 
+
+after compilation we get byteCode from our source code. (JVM works on byteCode)
+At first JVM will find the main method first to execute the java programm. so 
+we have only one main method in java project and so we call main method as entry point method/function of java programm.
+
+
+JRE - Java Runtime Environment
+    JRE contains all necessory library and files which requires to execure the java programm.
+
+
+JDK - Java Development Kit 
+    It is a software Development kit containt all necessory tools which is used to develop, debuge, and 
+    monitor the java application.
