@@ -1,0 +1,25 @@
+variable in java - variable in java are nothing but the container comes with tha data type used to store the same
+                    type of data which is declared.
+
+                e.g     int number = 10
+
+
+Data types  -  1. primitive data type -  byte,short,int,long,float,double,char,boolean
+               2. Reference type\non-primitive type  - array,string,object
+
+
+               byte - 1 byte
+               short- 2 bytes
+               int  - 4 bytes
+               long - 8 bytes
+               float- 4 bytes 
+                 e.g - float result = 88.98;    (it will show error because we try to assign double value to float)
+                                                java supports double by default between float and double
+                e.g - float result = 88.98f;  not it is correct  (for float value we need to explicitly define f at the end)
+
+               double-8 bytes  (Java supports by default double between float and double)
+                e.g double makrs = 78.98;
+
+               char - 2 byte   .e.g char c = 'p';  (should be one character with single quote)
+               boolean - 1 byte  (it stores only true and false  not 0 and 1 (int other lauaguage 0 and 1 supports))
+               e.g boolean  flage = true;

@@ -1,0 +1,23 @@
+Type Conversion and type casting -      
+
+type conversion - when conversion happens automatically by the java compiler of one data type into another data type
+                    implicitly then it is type conversion. (widening)
+                - smaller data type convert into bigger data type by the compiler automaticallay
+                - no chance of data loss  and no explicitly need to five any sign while converting.
+
+        e.g.  -  byte b = 12;
+                 int a = b;       <- this is type conversion which is done by the compiler itself.
+
+
+type casting  -  when user/we convert bigger data type into smaller data type explicitly then it is called as type casting.
+                (narrowing)
+              - bigger data type convert into samaller with some symball (data type name) explicitly
+              - it is not safe, it may data loss while casting.
+
+              int a = 12;
+              byte b = a;       (it will give error cause compiler gives error compiler not convert bigger data type into 
+                                 small data type).
+            we need to do explicity type casting i.e. convert big data type into samll data type by using data type symball.
+
+            int a = 12;
+            byte b= (byte)a;    -> now it will work fine, cause we explicitly mention to cast into byte by symball (byte).

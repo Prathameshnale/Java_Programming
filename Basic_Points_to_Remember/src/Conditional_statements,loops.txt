@@ -1,0 +1,53 @@
+1. if 
+2. if else
+3. if else ladder
+4. switch case
+
+  syntax ->  
+                switch(condition){
+                    case 1: 
+                        statements;
+                        break;
+                    case 2:
+                        statements;
+                        break;
+                    default:
+                        statements;
+                }
+    value of condition should be integer
+    no duplicate case is allowed
+    if break statement is missing then it will execute next case if present
+
+updated version of switch in java 12 version
+you can skip the word break; after each case  1. by writing code in one line with -> symball or 2. by wirting word "yield"
+
+1. by writing code in one line -
+
+        switch(condition){
+                    case 1 -> statement;
+                        
+                    case 2-> statement;
+
+                    default-> statement;
+                }
+
+                or
+
+2. by writing "yield"
+  
+        switch(condition){
+                    case 1: yield statement;
+                        
+                    case 2: yield statement;
+
+                    default: yield statement;
+                }
+
+
+
+Loops in java 
+
+1. for Loop  - used when we know the number of iterations
+2. while Loop  - used when we don't know number of iterations
+3. do while Loop  - used when we don't know number of iterations or when we want to execure the loop at list one time.
+4. for each Loop  (same as for loop syntax change only)

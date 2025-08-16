@@ -1,0 +1,9 @@
+Operators in Java
+
+1. Arethmetic Operators -> + - * % / 
+2. logical Operators -> &&  ||  !
+3. Assignment Operators -> = != += -= *= /= 
+4. bitwise Operators -> & | ! ^
+5. Relational opearators ->  > < >= <= == !=
+
+6. Ternary operator -> (condition ? ture : false )
