@@ -1,6 +1,4 @@
-
-
-
+import java.util.Scanner;
 
 class Animal{
 	String name;
@@ -28,9 +26,21 @@ class Tiger extends Animal{
 
 class demo{
 	public static void main(String[] args) {
-		Animal a1=new Dog();
+		//Animal a1=new Dog();
 		
-		((Dog) a1).eat();	
+		//((Dog) a1).eat();	
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter number to check it is palindrome or not");
+		String name = sc.nextLine();
+		String newName = "";
+		
+		for(int i=(name.length()-1); i>=0; i--) {
+			newName = newName+name.charAt(i);
+		}
+		
+		System.out.println("newString = "+newName);
+	
 	}
 }
 

@@ -1,0 +1,10 @@
+/*
+ 
+ Class - class is a blueprint/template used to make object and it indicates the structure and behavior of a object.
+   		class encapsulate the data via fields/instance variable and methods of class.
+   		e.g Class Person
+   		
+ Object - Object is real time and real world entity of a class. it has behavior.
+ 		e.g Person employee = new Person();
+ 
+ */

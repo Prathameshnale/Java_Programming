@@ -12,7 +12,7 @@ we have only one main method in java project and so we call main method as entry
 
 
 JRE - Java Runtime Environment
-    JRE contains all necessory library and files which requires to execure the java programm.
+    JRE contains all necessory library and files which requires to execute the java programm.
 
 
 JDK - Java Development Kit 
