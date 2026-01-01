@@ -1,51 +1,23 @@
+//write a fibonacci series with given range
+
 import java.util.Scanner;
 
-class Animal{
-	String name;
-	double weight;
-	
-	public void walk() {
-		
-	}	
-}
-
-
-class Dog extends Animal{
-	public void eat() {
-		System.out.println("eat chiken");
-	}
-}
-
-class Tiger extends Animal{
-	public void eat() {
-		System.out.println("eat Meat");
-	}
-}
-
-
-
-class demo{
-	public static void main(String[] args) {
-		//Animal a1=new Dog();
-		
-		//((Dog) a1).eat();	
-		
+public class demo{
+	public static void main(String args[]) {
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Enter number to check it is palindrome or not");
-		String name = sc.nextLine();
-		String newName = "";
+		System.out.println("Enter range to print fibonacci series");
+		int range = sc.nextInt();
 		
-		for(int i=(name.length()-1); i>=0; i--) {
-			newName = newName+name.charAt(i);
+		int number=1;
+		int temp = 1;
+		System.out.print(temp+" "+number);
+		while((temp+number)<range) {
+			int temp1=number;
+			System.out.print(" "+(temp+number));
+			number=temp+number;
+			temp=temp1;			
 		}
 		
-		System.out.println("newString = "+newName);
-	
+		
 	}
 }
-
-
-
-
-
-

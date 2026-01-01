@@ -8,7 +8,15 @@ It maps Java objects (classes) to database tables and handles SQL automatically.
 Removes the need to write most of the JDBC code manually.
 
 
+Annotation	                                                            Description
 
+@Entity	                                                                Marks class as database table
+@Table	                                                                Specifies table name
+@Id	                                                                    Primary key
+@GeneratedValue	                                                        Auto-increment strategy
+@Column	Column                                                          name & attributes
+@OneToMany / @OneToOne / @ManyToOne	                                    Relationship mapping
+@Transient	                                                            Field not stored in DB
 
 
 

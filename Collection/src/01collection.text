@@ -3,11 +3,11 @@
     List(sub-interface)                               Set (sub-interface)                             Queue (sub-interface) 
 
 
-    ArrayList<> (Class)                                                                                ArrayDeque
+    ArrayList<> (Class)                         HashSet<>                                                  ArrayDeque
 
-    LinkedList<> (Class)                                                                               LinkedList
+    LinkedList<> (Class)                        LinkedHashSet<>                                            PriorityQueue
 
-    Stack<> (Class)                                                                                    PriorityQueue
+    Stack<> (Class)                             TreeSet<>                                                   
 
     Vector<> (Class)
 
@@ -19,9 +19,33 @@
     Collection as interface - Collection is root interface in collection framework.
                               Iterator is superinterface of collection interface. 
                               Sub-interfaces of collection interface.
-                              1. List
+                              1. List    
                               2. Set
                               3. Queue
+
+
+
+            1. List -    a. ArrayList - fast, duplicate, Ordered
+                         b. LinkedList - insertion-deletion fast,duplicate,ordered
+                         c. stack - follows LIFO
+
+            2. Set       a.HashSet - fast, no duplicate, no ordered
+                         b.LinkedHashSet - insertion order maintain
+                         c.TreeSet - sorted
+
+            3. Queue     a.PriorityQueue - sorted based on PriorityQueue
+                         b.ArrayDeque
+
+
+    Map as interface - Map is also interface but it is not under collection interface, it is another interface comes under 
+                       collection framework.
+                    - it is key-value pair where key cannot be duplicate but values can
+
+                    below class implements map interface
+
+                    1. HashMap  - fast, no Duplicate
+                    2. LinkedHashMap - Ordered
+                    3. TreeMap - sorted
 
 
     methods in collection interface(mostely used) - 

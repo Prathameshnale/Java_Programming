@@ -1,6 +1,6 @@
 Putty  WinSCP  OCR
  
-Since Linux and windows has it's own tool to access the Linux server so for windows platform
+Since Linux and MAC has it's own tool to access the Linux server so for windows platform
 Putty is free open source used to access the Linux server using secure Shell (SSH).
 It provides the simple interface to login into server, run commands and transfer files using WinSCP.
 
